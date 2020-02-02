@@ -1,10 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { jssPreset } from "@material-ui/styles";
 
 const Header = ({ siteTitle }) => (
-  <AppBar
+  <header
     style={{
       background: `rebeccapurple`,
       marginBottom: `1rem`,
@@ -29,7 +28,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-  </AppBar>
+  </header>
 )
 
 Header.propTypes = {
